@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+
+  <!-- Boostrap file Linkage -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Unicons CSS for Navbar -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+  
+  <!-- Custom Files -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/index_media_queries.css" />
+
+
+  <!-- Google Font -->
+  
+
+</head>
+<body>
+
+   <!-- Navbar Code -->
+
+  <nav class="nav">
+    <i class="uil uil-bars navOpenBtn"></i>
+    <a href="index.html" class="logo">PeanutInfo</a>
+    <ul class="nav-links">
+      <i class="uil uil-times navCloseBtn"></i>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="size_guide.html">Size Guide</a></li>
+
+      <!-- <li class="nav-item dropdown">
+        <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Image Processing
+        </a>
+        <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="image_classification.php">Peanut Classification</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="image_diseases_detection.php">Peanut Disease Detection</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="image_pest_detection.php">Peanut Pest Detection</a></li>
+        </ul>
+      </li> -->
+
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+
+    <div class="nav-user-section text-white fw-bolder">
+      Welcome to Press-on
+    </div>
+  </div>
+  </nav>
+
+
+
+
+  <!-- Main section of Main Page -->
+   
+<!-- 
+  <div class="section1">
+    <h2 class="text-center">The Ultimate AI-Powered Peanut Analysis Platform</h2>
+    <h2 class="paddingBorder text-center ">Ensure Precision in Peanut Classification, Pest, and Disease Detection.
+    </h2>
+    <div class="border-after-h2"></div>
+    <h3 class="text-center">
+      Leverage AI to classify peanuts, detect diseases, and pests.
+    </h3>
+    <h3 class="text-center">
+      Enhance productivity and quality with real-time insights.
+    </h3>
+
+
+    <div class="container">
+      <div class="fields">
+        <div class="col-md mx-3 processing-buttons text-end">
+          <a href="image_classification.php" class="btn41-43 btn-41">Peanut Classification</a>
+        </div>
+
+        <div class="col-md mx-3 processing-buttons">
+          <a href="image_pest_detection.php" class="btn41-43 btn-41">Peanut Pest Detection</a>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="section1">
+  <!-- Video Background -->
+  <video autoplay muted loop playsinline class="video-background">
+    <source src="videos/nails.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <!-- Overlay -->
+  <div class="video-overlay"></div>
+  
+  <!-- Content -->
+  <div class="content-wrapper">
+    <h2 class="text-center">Salon-Perfect Press-On Nails</h2>
+    <h2 class="paddingBorder text-center">Handmade gel sets that are durable, breakage-free, and non-plastic.</h2>
+    <div class="border-after-h2"></div>
+    <h3 class="text-center">
+      Easy to apply, reusable, and customized to your style.
+    </h3>
+    <h3 class="text-center">
+      Instant glam for every occasion—because life’s too short for boring nails.
+    </h3>
+
+    <div class="container">
+      <div class="fields">
+        <div class="col-md mx-3 processing-buttons text-end">
+          <a href="image_classification.php" class="btn41-43 btn-41"> Place Order </a>
+        </div>
+
+        <div class="col-md mx-3 processing-buttons">
+          <a href="image_pest_detection.php" class="btn41-43 btn-41">Explore Nails</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Cards of All Categories -->
+
+
+
+  <div class="cardHeadings content-wrapper">
+    <h2>
+      Our Nail Collections
+    </h2>
+    <div class="bordercards"></div>
+    <h5>
+      Discover styles for every mood and occasion
+    </h5>
+  </div>
+
+
+
+  <!-- Card 1 (Classic Nails)-->
+
+  <div class="cards">
+    <div class="container custom-container content-wrapper">
+      <div class="card mb-3 custom-card">
+        <div class="row g-0">
+          <div class="col-md-4 back_image1 cardImage">
+            <div class="overlay"></div>
+            <button type="button" class="button btn btn-outline-light p-2 px-5">Classic Nails</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card-body second-column-card">
+              <h5 class="card-title mx-3 text-start">Classic Nails</h5>
+              <p class="card-text mx-3">Simple, elegant designs for everyday wear. Perfect for a clean, natural look that suits any outfit.</p>
+              <a href="#" class="card-text mx-3 text-decoration-none"><i class="fa-solid fa-calendar-star"></i> Everyday / Casual</a>
+
+              <div class="data-accuracy">
+
+                <div class="dataset my-4 mx-4">
+                  <p class="card-title">Type</p>
+                  <p class="card-title"><i class="fa-solid fa-hand-sparkles"></i> Handmade Gel Press-On</p>
+                </div>
+
+                <div class="Accuracy-achieved my-4 mx-4">
+                  <p class="card-title">Popularity</p>
+                  <p class="card-title"><i class="fa-solid fa-star"></i> 4.8 / 5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-body third-column-card">
+              <h6 class="card-title">Style Used</h6>
+              <h4 class="card-title">Short & Natural</h4>
+              <p class="card-text custom-text">By</p>
+              <h6 class="card-text custom-heading">BlingyNails Team</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Card 2 (Glam Nails) -->
+
+  <div class="cards">
+    <div class="container custom-container content-wrapper">
+      <div class="card mb-3 custom-card">
+        <div class="row g-0">
+          <div class="col-md-4 back_image3 cardImage">
+            <div class="overlay"></div>
+            <button type="button" class="button btn btn-outline-light p-2 px-5">Glam Nails</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card-body second-column-card">
+              <h5 class="card-title mx-3 text-start">Glam Nails</h5>
+              <p class="card-text mx-3">Sparkly, eye-catching nails for parties and special occasions. Designed to add instant glamour and shine.</p>
+              <a href="#" class="card-text mx-3 text-decoration-none"><i class="fa-solid fa-calendar-star"></i> Party / Event</a>
+
+              <div class="data-accuracy">
+
+                <div class="dataset my-4 mx-4">
+                  <p class="card-title">Type</p>
+                  <p class="card-title"><i class="fa-solid fa-hand-sparkles"></i> Handmade Gel Press-On</p>
+                </div>
+
+                <div class="Accuracy-achieved my-4 mx-4">
+                  <p class="card-title">Popularity</p>
+                  <p class="card-title"><i class="fa-solid fa-star"></i> 4.9 / 5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-body third-column-card">
+              <h6 class="card-title">Style Used</h6>
+              <h4 class="card-title">Long & Eye-Catching</h4>
+              <p class="card-text custom-text">By</p>
+              <h6 class="card-text custom-heading">BlingyNails Team</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Card 3 (French Tips) -->
+
+  <div class="cards">
+    <div class="container custom-container content-wrapper">
+      <div class="card mb-3 custom-card">
+        <div class="row g-0">
+          <div class="col-md-4 back_image4 cardImage">
+            <div class="overlay"></div>
+            <button type="button" class="button btn btn-outline-light p-2 px-5">French Tips</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card-body second-column-card">
+              <h5 class="card-title mx-3 text-start">French Tips</h5>
+              <p class="card-text mx-3">Timeless French manicure with a modern twist. Elegant and chic for both casual and professional settings.</p>
+              <a href="#" class="card-text mx-3 text-decoration-none"><i class="fa-solid fa-calendar-star"></i> Office / Casual / Formal</a>
+
+              <div class="data-accuracy">
+
+                <div class="dataset my-4 mx-4">
+                  <p class="card-title">Type</p>
+                  <p class="card-title"><i class="fa-solid fa-hand-sparkles"></i> Handmade Gel Press-On</p>
+                </div>
+
+                <div class="Accuracy-achieved my-4 mx-4">
+                  <p class="card-title">Popularity</p>
+                  <p class="card-title"><i class="fa-solid fa-star"></i> 4.7 / 5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-body third-column-card">
+              <h6 class="card-title">Style Used</h6>
+              <h4 class="card-title">Medium Length, Modern Twist</h4>
+              <p class="card-text custom-text">By</p>
+              <h6 class="card-text custom-heading">BlingyNails Team</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Card 4 (French Tips) -->
+
+  <div class="cards">
+    <div class="container custom-container content-wrapper">
+      <div class="card mb-3 custom-card">
+        <div class="row g-0">
+          <div class="col-md-4 back_image4 cardImage">
+            <div class="overlay"></div>
+            <button type="button" class="button btn btn-outline-light p-2 px-5">Long & Statement</button>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card-body second-column-card">
+              <h5 class="card-title mx-3 text-start">Long & Statement</h5>
+              <p class="card-text mx-3">Bold, dramatic nails that make a statement. Perfect for events or whenever you want to stand out.</p>
+              <a href="#" class="card-text mx-3 text-decoration-none"><i class="fa-solid fa-calendar-star"></i> Events / Photoshoots / Parties</a>
+
+              <div class="data-accuracy">
+
+                <div class="dataset my-4 mx-4">
+                  <p class="card-title">Type</p>
+                  <p class="card-title"><i class="fa-solid fa-hand-sparkles"></i> Handmade Gel Press-On</p>
+                </div>
+
+                <div class="Accuracy-achieved my-4 mx-4">
+                  <p class="card-title">Popularity</p>
+                  <p class="card-title"><i class="fa-solid fa-star"></i> 4.9 / 5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card-body third-column-card">
+              <h6 class="card-title">Style Used</h6>
+              <h4 class="card-title">Extra Long, Dramatic</h4>
+              <p class="card-text custom-text">By</p>
+              <h6 class="card-text custom-heading">BlingyNails Team</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Want to Contribute to the industry with us -->
+
+
+  <div class="parallax">
+    <h1 class="text-center content-wrapper">Instant Glam, Every Day</h1>
+    <h1 class="paddingBorder text-center content-wrapper">Handmade gel nails that are stylish, durable, and reusable.
+    </h1>
+    <div class="border-after-h1"></div>
+    <h3 class="text-center content-wrapper">
+      From classic looks to bold statements, get salon-quality nails instantly.
+    </h3>
+    <h3 class="text-center content-wrapper">
+      Your style, your nails, your way.
+    </h3>
+
+    <div class="buttons ">
+      <button class="btn btn-small changeColor">Make Customizations</button>
+      <button class="btn btn-small whiteColor">View Collections</button>
+    </div>
+  </div>
+
+
+
+
+  <!-- What our Customers say about us -->
+
+<div class="cardHeadingsCustomers">
+        <h2>What Our Customers Say</h2>
+        <div class="bordercardscustomers"></div>
+        <h5>Hear from those who love their BlingyNails</h5>
+    </div>
+
+    <div class="testimonial-section">
+        <div class="testimonial-carousel-container">
+            <button class="testimonial-nav prev" aria-label="Previous">‹</button>
+            
+            <div class="testimonial-track-wrapper">
+                <div class="testimonial-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            Absolutely love my nails! They are so easy to apply, look stunning, and last for weeks. I've never had a better at-home nail experience. The quality is amazing, and I get compliments everywhere I go. BlingyNails truly makes me feel glamorous!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=1" alt="Sara Khan">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Sara Khan</div>
+                                <div class="user-location">Fashion Enthusiast</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            BlingyNails are a game-changer! The designs are gorgeous, and they fit perfectly. I love that I can reuse them and switch styles whenever I want. The attention to detail is incredible, and I feel confident showing them off at every event!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=5" alt="Ayesha Ali">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Ayesha Ali</div>
+                                <div class="user-location">Beauty Influencer</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            I've tried many press-on nails before, but these are by far the best. Reusable, stylish, and comfortable—perfect for any occasion. I love the variety of designs and how quickly I can have salon-quality nails at home. Absolutely worth it!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=9" alt="Zoya Ahmad">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Zoya Ahmad</div>
+                                <div class="user-location">Marketing Director</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            These nails exceeded my expectations! They're durable, elegant, and so convenient. I can do my nails in minutes and they look professionally done. BlingyNails has become my go-to for weddings, parties, and everyday glam!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=20" alt="Fatima Raza">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Fatima Raza</div>
+                                <div class="user-location">Event Planner</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            Finally found press-on nails that actually stay on! The designs are trendy and the quality is top-notch. I love how I can match them to any outfit. They're comfortable, stunning, and so affordable. Worth every single penny!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=26" alt="Hira Malik">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Hira Malik</div>
+                                <div class="user-location">Graphic Designer</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <div class="testimonial-text">
+                            BlingyNails has revolutionized my nail routine! No more expensive salon visits or waiting hours. These nails are stunning, comfortable, and last so long. I'm obsessed with every collection they release. Pure perfection!
+                        </div>
+                        <div class="user-info">
+                            <div class="user-image-circle">
+                                <img src="https://i.pravatar.cc/150?img=32" alt="Alina Sheikh">
+                            </div>
+                            <div class="user-details">
+                                <div class="user-name">Alina Sheikh</div>
+                                <div class="user-location">Entrepreneur</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="testimonial-nav next" aria-label="Next">›</button>
+            
+            <div class="scroll-progress"></div>
+        </div>
+        
+        <div class="testimonial-dots"></div>
+    </div>
+
+
+  <!-- Followed Journals -->
+
+  <div class="cardHeadings content-wrapper">
+        <h2>Our Work</h2>
+        <div class="bordercards"></div>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-container">
+                <button class="carousel-btn prev" aria-label="Previous">‹</button>
+                
+                <div class="journals-carousel">
+                    <div class="journals">
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                        <div class="journal-item">
+                            <img src="images/Elsivier.jpeg" alt="BlingyNails Work">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn next" aria-label="Next">›</button>
+            </div>
+            
+            <div class="carousel-dots"></div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h4>ABOUT</h4>
+          <p>
+          PeanutInfo is an AI-powered platform for farmers, specializing in peanut classification and pest detection to enhance crop management and efficiency
+          </p>
+        </div>
+        <div class="footer-section categories">
+          <h4>IMAGE PROCESSING</h4>
+          <ul>
+            <li><a href="image_classification.php">Peanut Classification</a></li>
+            <li><a href="image_diseases_detection.php">Peanut Disease Detection</a></li>
+            <li><a href="image_pest_detection.php">Peanut Pest Detection</a></li>
+          </ul>
+        </div>
+        <div class="footer-section quick-links">
+          <h4>QUICK LINKS</h4>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="#">Publication</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section get-in-touch">
+          <h4>GET IN TOUCH</h4>
+          <p>Follow us on different social media platforms</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <h6>© 2025 PeanutInfo. All Rights Reserved.</h6>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
